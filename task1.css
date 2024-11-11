@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  top: 0px;
+  background-color: #263238;
+}
+
+header div {
+  text-align: center;
+  font-size: 200px;
+  position: absolute;
+  padding-top: 20px;
+
+}
+
+
+body {
+  background: black;
+
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 20%;
+  font-size: 60px;
+  scale: 3;
+  z-index: 1;
+  text-shadow: 2px 2px 4px rgba(243, 243, 243, 0.5);
+}
+
+.burger {
+  position: absolute;
+  right: 300px;
+  top: 100px;
+  width: 500px;
+  rotate: 10deg;
+  scale: 1.04;
+}
+
+
+.pizza {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  position: absolute;
+  left: -80px;
+  top: 400px;
+  scale: 1.09;
+  border: white solid 1px
+}
+
+.fastfood-shawerma .shawerma,
+.fastfood-shawerma .fastfood {
+  display: inline-block;
+  margin-left: 6%;
+}
+
+
+.shawerma {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 150px;
+  margin-bottom: -20px;
+  display: inline-block;
+
+}
+
+.fastfood {
+  color: aliceblue;
+  height: 400px;
+  width: 800px;
+  font-size: 20px;
+  display: inline-block;
+
+}
+
+.video {
+  display: inline-flex;
+
+}
+
+.POPULARFOODITEMS {
+  padding-left: 1%;
+}
+
+.POPULARFOODITEMS th {
+  padding-left: 150px;
+  align-items: center;
+
+}
+
+.POPULARFOODITEMS img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+small {
+  font-size: 15px;
+}
+
+del {
+  color: red;
+}
+
+button {
+  width: 150px;
+  align-content: center;
+  font-weight: bold;
+  border-radius: 50px;
+  height: 40px;
+  border: none;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: red;
+  color: aliceblue;
+  font-weight: bold;
+
+
+}
+
+
+header ul li {
+  display: inline-block;
+  margin-right: 30px;
+  font-style: bold;
+  font-size: 40px;
+  color: azure;
+}
+
+header ul {
+  padding: 20px;
+  text-align: right;
+
+}
+
+header ul li:hover {
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+}
+
+footer {
+  color: azure;
+  background-color: #263238;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px;
+  width: 100%;
+  height: 50px;
+}
+
+a {
+  text-decoration: none;
+}
